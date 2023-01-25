@@ -7,6 +7,7 @@
   pointer-events: none;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +36,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.content {
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  
+}
+
+.header-custom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo a{
+  /* color: red; */
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 1px;
 }

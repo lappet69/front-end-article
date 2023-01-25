@@ -1,0 +1,40 @@
+.list-container{
+    display: flex;
+    text-align: justify;
+    position: relative;
+}
+.article-item a{
+    font-size: large;
+    font-weight: bold;
+    
+}
+.list-container .ant-list-pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.article-source{
+    display: flex;
+    gap:10px;
+}
+
+.article-source, .article-item{
+    padding: 0 1rem;
+}
+@media only screen and (max-width: 768px) {
+    .list-container{
+      /* background-color: lightblue; */
+      flex-flow: column-reverse;
+      gap:0px;
+    }
+    
+    .img-news{
+        width: 100%;
+        margin-inline-start: -12px; 
+    }
+    .article-source, .article-item{
+        padding: 0 1rem;
+    }
+
+   
+  }

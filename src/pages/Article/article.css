@@ -1,0 +1,28 @@
+.detail-article-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    /* padding-top: 1rem; */
+}
+.detail-article{
+    display: flex;
+    background: #eaeaea;
+}
+.detail-article h1{
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+.detail-article-content {
+    padding: 2rem 1rem;
+    margin: 0 1rem;
+    text-align: justify;
+}
+
+.detail-article-source{
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem; 
+}
